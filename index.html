@@ -3,22 +3,115 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Profile</title>
+    <title>Himanshu Joshi - Profile</title>
     <style>
       body {
         font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
         text-align: center;
-        padding: 50px;
       }
-      img {
-        border-radius: 50%;
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        background: #fff;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+      .profile-img {
         width: 150px;
+        border-radius: 50%;
+      }
+      h1,
+      h2 {
+        color: #333;
+      }
+      p {
+        color: #555;
+      }
+      .section {
+        margin-top: 20px;
+        text-align: left;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        background: #e2e2e2;
+        margin: 5px 0;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      .footer {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #777;
+      }
+      a {
+        color: #007bff;
+        text-decoration: none;
       }
     </style>
   </head>
   <body>
-    <h1>Hello, I'm Your Name!</h1>
-    <img src="profile.jpg" alt="Profile Picture" />
-    <p>Welcome to my personal webpage!</p>
+    <div class="container">
+      <img src="profile.jpg" alt="Himanshu Joshi" class="profile-img" />
+      <h1>Himanshu Joshi</h1>
+      <p>Front-End Developer | Angular | React | JavaScript | C#</p>
+      <p>
+        Indore, M.P. |
+        <a href="mailto:bablujoshi@gmail.com">bablujoshi@gmail.com</a>
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/in/himanshu-joshi-10r" target="_blank"
+          >LinkedIn</a
+        >
+      </p>
+
+      <div class="section">
+        <h2>Professional Summary</h2>
+        <p>
+          Accomplished front-end developer with over 15 years of experience
+          specializing in modern web technologies, developing scalable
+          applications, and integrating APIs.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Skills</h2>
+        <ul>
+          <li>Angular (5+ years)</li>
+          <li>ReactJS (2+ years)</li>
+          <li>JavaScript (ES6+), TypeScript</li>
+          <li>RxJS, Redux</li>
+          <li>Flutter (Mobile Development)</li>
+          <li>C#, .NET Framework</li>
+          <li>RESTful APIs, SQL</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Notable Projects</h2>
+        <ul>
+          <li>
+            <strong>mybldr.com</strong> - Lead Developer, Angular, .NET Core,
+            Azure
+          </li>
+          <li><strong>Apollo Construct</strong> - Angular, Node.js, MongoDB</li>
+          <li>
+            <strong>Badabhalu</strong> - E-commerce platform, Angular, Flutter
+          </li>
+          <li>
+            <strong>CallFoodie</strong> - Food delivery app, Angular, Flutter
+          </li>
+          <li><strong>InvoicInk</strong> - Inventory management, C#</li>
+        </ul>
+      </div>
+
+      <div class="footer">© 2025 Himanshu Joshi</div>
+    </div>
   </body>
 </html>
